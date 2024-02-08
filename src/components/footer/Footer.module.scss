@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+
+.footer {
+  color: $secondary-color;
+  background-color: #585658;
+  text-align: center;
+}
+.footerLogo {
+  width: 160px;
+  margin: 30px 0px 20px 0px;
+}
+.footerImg {
+  width: 35px;
+}
+.footerLinks {
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
+.footerDivider {
+  border: 1px solid $secondary-color;
+  background-color: $secondary-color;
+  margin: 0px 10%;
+}
+.footerLogoContainer {
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+}
+.footerPersonalLogo {
+  object-fit: contain;
+  width: 40px;
+}
+.footerAuthor {
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+}

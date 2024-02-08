@@ -1,0 +1,72 @@
+@import "../../variables.scss";
+
+.container {
+  padding: 1rem 0 2rem 0;
+}
+
+.paginationList {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  max-width: 450px;
+  padding: 0;
+}
+
+.pageContainer {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  gap: 10px;
+
+  &:hover {
+    outline: 2px solid $secondary-color;
+  }
+}
+.pageContainerActive {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: $secondary-color;
+  background-color: $terziary-color;
+  outline: 2px solid $terziary-color;
+  outline-offset: -1px;
+  button {
+    color: $secondary-color;
+  }
+}
+
+.page {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  border-radius: 50%;
+  outline-offset: -1px;
+
+  &:active {
+    background-color: $secondary-color;
+    outline: 2px solid $secondary-color;
+    border: 2px solid $secondary-color;
+  }
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+
+  img {
+    &:hover {
+      outline-offset: -1px;
+      outline: 2px solid $secondary-color;
+      border-radius: 50%;
+    }
+  }
+}

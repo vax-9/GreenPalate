@@ -1,0 +1,85 @@
+@import "../../variables.scss";
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 12px 10px;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-wrap: nowrap;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: $primary-color;
+  box-shadow: 0px 2px 5px rgba($color: #000000, $alpha: 0.1);
+}
+
+.navLogoText {
+  width: 150px;
+  object-fit: contain;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+  list-style: none;
+
+  li {
+    a {
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:visited,
+    a:link {
+      text-decoration: none;
+      text-decoration-style: none;
+      color: $terziary-color;
+    }
+    a:hover {
+      color: $secondary-color;
+    }
+    a:active {
+      color: $active-secondary;
+    }
+  }
+}
+
+.navLogo {
+  display: none;
+  height: 35px;
+  object-fit: contain;
+}
+
+.active {
+  color: $active-secondary;
+}
+
+@media screen and (max-width: 480px) {
+  .navLinks {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navLogoText {
+    display: none;
+  }
+
+  .navLogo {
+    display: block;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .logoActive {
+    background-color: $terziary-color;
+    border-radius: 50%;
+  }
+}

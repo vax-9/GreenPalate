@@ -1,0 +1,70 @@
+@import "../../variables.scss";
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-image: url(../../assets/hero3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.hero::before {
+  content: "";
+  display: block;
+  -webkit-filter: blur(1px) brightness(0.4);
+  -moz-filter: blur(1px) brightness(0.4);
+  -ms-filter: blur(1px) brightness(0.4);
+  -o-filter: blur(1px) brightness(0.4);
+  filter: blur(1px) brightness(0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: 0;
+}
+.heroContent {
+  color: $primary-color;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.heroTitle {
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  max-width: 80%;
+  text-align: center;
+  padding: 1.4rem;
+}
+
+.heroSubTitle {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .heroTitle {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    max-width: 90%;
+    text-align: center;
+    padding: 1.4rem 0;
+  }
+
+  .heroSubTitle {
+    font-weight: 400;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}

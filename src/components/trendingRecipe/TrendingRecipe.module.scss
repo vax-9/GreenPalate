@@ -1,0 +1,94 @@
+@import "../../variables.scss";
+
+.trend {
+  max-width: 1200px;
+  margin: auto;
+  color: $terziary-color;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.trendTitle {
+  margin-bottom: 1rem;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.trendTextContainer {
+  margin: 5%;
+}
+
+.trendText {
+  line-height: 23px;
+  padding: 30px 0;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.trendingRecipes {
+  display: flex;
+  justify-content: space-around;
+}
+.trendingRecipesContainer {
+  text-align: center;
+  font-size: large;
+  margin: 20px;
+}
+
+.trendImg {
+  background-color: $terziary-color;
+  padding: 35px;
+  border-radius: 20px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: $terziary-color;
+}
+a:hover {
+  color: $secondary-color;
+}
+a:active {
+  color: $active-secondary;
+}
+
+@media screen and (max-width: 480px) {
+  .trendingRecipes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trendTitle {
+    text-align: center;
+  }
+
+  .trendTextContainer {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .trendingRecipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .trendTitle {
+    text-align: center;
+  }
+
+  .trendTextContainer {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}

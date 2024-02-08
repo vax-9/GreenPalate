@@ -1,0 +1,68 @@
+@import "../../variables.scss";
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 620px;
+  background-image: url(../../assets/hero3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 2rem;
+  margin: 100px 0 100px;
+}
+
+.notFound::before {
+  content: "";
+  display: block;
+  -webkit-filter: blur(1px) brightness(0.4);
+  -moz-filter: blur(1px) brightness(0.4);
+  -ms-filter: blur(1px) brightness(0.4);
+  -o-filter: blur(1px) brightness(0.4);
+  filter: blur(1px) brightness(0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: 0;
+}
+.notFoundContent {
+  color: $primary-color;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  text-align: center;
+}
+.notFoundTitle {
+  font-weight: 500;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  max-width: 80%;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.returnButton {
+  padding: 1rem;
+  background-color: $secondary-color;
+  color: $terziary-color;
+  border: 2px solid $active-secondary;
+  border-radius: 6px;
+  margin: 1rem;
+  transition: color 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: $active-secondary;
+    color: $primary-color;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

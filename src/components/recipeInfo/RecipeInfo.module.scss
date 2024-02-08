@@ -1,0 +1,142 @@
+@import "../../variables.scss";
+
+.recipeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $terziary-color;
+  max-width: 1000px;
+  margin: 6rem auto 3rem;
+  padding: 1rem;
+  border: 3px solid $secondary-color;
+  border-radius: 10px;
+}
+
+.recipeTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.recipeImg {
+  margin: 1rem;
+  max-width: 35%;
+  border-radius: 10px;
+}
+
+.titleContainer {
+  text-align: center;
+  margin: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.valuesContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.infoContainer {
+  width: 80%;
+  margin: 1rem;
+  margin-bottom: 3rem;
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin: 8px;
+  }
+}
+
+.ingredientContainer {
+  margin-bottom: 3rem;
+}
+
+.steps {
+  margin-bottom: 2rem;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 10%;
+  padding: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .recipeContainer {
+    margin: 6rem 1rem 3rem;
+  }
+  .recipeTitleContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .description {
+    display: none;
+  }
+  .recipeImg {
+    max-width: 80%;
+  }
+  .titleContainer {
+    font-size: small;
+  }
+  .infoContainer {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  .ingredientContainer {
+    padding-left: 20px;
+  }
+  .steps {
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .recipeContainer {
+    margin: 6rem 2rem 3rem;
+  }
+
+  .recipeTitleContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 15px;
+  }
+  .recipeImg {
+    max-width: 80%;
+  }
+  .titleContainer {
+    font-size: small;
+  }
+  .infoContainer {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  .ingredientContainer {
+    padding-left: 20px;
+  }
+  .steps {
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}
