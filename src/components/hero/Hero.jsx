@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import style from "./Hero.module.scss";
-import SearchBar from "../searchBar/searchBar";
+import SearchBar from "../searchBar/SearchBar";
 
 function Hero() {
   return (
