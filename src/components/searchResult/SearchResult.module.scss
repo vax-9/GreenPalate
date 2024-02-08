@@ -63,6 +63,21 @@
   gap: 10px;
 }
 
+.returnButton {
+  padding: 1rem;
+  background-color: $secondary-color;
+  color: $terziary-color;
+  border: 2px solid $active-secondary;
+  border-radius: 6px;
+  margin: 1rem;
+  transition: color 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: $active-secondary;
+    color: $primary-color;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .card {
     font-size: 15px;

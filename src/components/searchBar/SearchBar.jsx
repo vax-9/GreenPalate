@@ -9,8 +9,10 @@ function SearchBar(props) {
   const [searchValue, setSearchValue] = useState("");
 
   function handleChange(e) {
-    setSearchValue(e.target.value);
+    setSearchValue(e.target.value.toLowerCase());
   }
+
+  console.log(searchValue);
 
   return (
     <form

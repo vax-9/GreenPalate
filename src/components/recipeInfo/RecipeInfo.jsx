@@ -41,8 +41,14 @@ function RecipeInfo() {
     );
   }
 
+  if (
+    data.message ===
+    "Your daily points limit of 150 has been reached. Please upgrade your plan to continue using the API."
+  ) {
+    return <Navigate to="/error/max" state={{ error: data.code }} />;
+  }
   if (data.status === "failure") {
-    return <Navigate to="/error/max" />;
+    return <Navigate to="/error" state={{ error: data.code }} />;
   }
 
   return (

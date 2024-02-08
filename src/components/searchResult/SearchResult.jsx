@@ -19,7 +19,7 @@ function Card(props) {
 }
 
 function SearchResult() {
-  const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY_2;
 
   const params = useParams();
 
@@ -56,7 +56,7 @@ function SearchResult() {
   }
 
   if (isError) {
-    return <Navigate to="/error" />;
+    return <Navigate to="/error" state={{ error: data.code }} />;
   }
 
   if (data.totalResults === 0) {
@@ -69,6 +69,16 @@ function SearchResult() {
         </div>
       </>
     );
+  }
+  if (
+    data.message ===
+    "Your daily points limit of 150 has been reached. Please upgrade your plan to continue using the API."
+  ) {
+    return <Navigate to="/error/max" state={{ error: data.code }} />;
+  }
+
+  if (data.status === "failure") {
+    return <Navigate to="/error" state={{ error: data.code }} />;
   }
 
   // pagination
