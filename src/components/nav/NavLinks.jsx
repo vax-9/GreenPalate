@@ -1,7 +1,7 @@
 import { logo, transparentLogo } from "../../assets/images";
 import style from "./NavLinks.module.scss";
 import { Link } from "react-router-dom";
-import SearchBar from "../searchBar/searchBar";
+import SearchBar from "../searchBar/SearchBar";
 
 function NavLinks() {
   return (
