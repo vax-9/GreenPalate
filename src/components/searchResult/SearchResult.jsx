@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import NavLinks from "../nav/NavLinks";
+import Pagination from "../pagination/Pagination";
 import style from "./SearchResult.module.scss";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { loader, vegan } from "../../assets/images";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { useState } from "react";
-import Pagination from "../pagination/Pagination";
 
 function Card(props) {
   return (
