@@ -1,6 +1,6 @@
 # [GreenPalate Logo](src/assets/logo-no-background.png)
 
-<a href="https://grennpalate.netlify.app/" src="src/assets/logo-no-background.png"></a>
+<img href="https://grennpalate.netlify.app/" src="src/assets/logo-no-background.png" alt="GreenPalate"></img>
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
