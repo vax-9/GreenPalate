@@ -1,4 +1,4 @@
-# <img  src="assets/logo-no-background.png"  align='center'  width="400px"  alt="GreenPalate"  >
+# <img  src="src/assets/logo-no-background.png"  align='center'  width="400px"  alt="GreenPalate"  >
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
@@ -6,7 +6,7 @@ Welcome to GreenPalate, your ultimate destination for discovering and exploring 
 
 <p  align="center">
 
-<img  src="assets/screenshot.png"  align='center'  width="400px"  alt="screenshot"  >
+<img  src="src/assets/screenshot.png"  align='center'  width="400px"  alt="screenshot"  >
 
 </p>
 
