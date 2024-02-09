@@ -1,4 +1,4 @@
-# <img  src="src/assets/logo-no-background.png"  align='center'  width="400px"  alt="GreenPalate"  >
+# [GreenPalate Logo](src/assets/logo-no-background.png)
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
@@ -6,7 +6,7 @@ Welcome to GreenPalate, your ultimate destination for discovering and exploring 
 
 <p  align="center">
 
-<img  src="src/assets/screenshot.png"  align='center'  width="400px"  alt="screenshot"  >
+[Screenshot](src/assets/screenshot.png)
 
 </p>
 
@@ -40,7 +40,7 @@ Simply visit [GreenPalate](https://greenpalate.netlify.app) and start exploring 
 
 ## Developer
 
-Giuseppe Vassallo – www.linkedin.com/in/giuseppe-vassallo-a24885291 –
+Giuseppe Vassallo – [linkedin](https://linkedin.com/in/giuseppe-vassallo-a24885291 –)
 
 try the app! [GreenPalate](https://grennpalate.netlify.app/)
 
