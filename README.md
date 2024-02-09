@@ -1,12 +1,12 @@
-# <a href="https://grennpalate.netlify.app/"><img  src="src/assets/logo-no-background.png" alt="GreenPalate" width="500px"></img></a>
+# <a href="https://grennpalate.netlify.app/"><img src="src/assets/logo-no-background.png"  alt="GreenPalate"  width="450px"></img></a>
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
 Welcome to GreenPalate, your ultimate destination for discovering and exploring a world of delightful vegetarian recipes.
 
-<picture  align="center" >
+<picture  align="center"  >
 
-<img src="src/assets/screenshot.png" alt="hompage screenshot" width="700px"></img>
+<img  src="src/assets/screenshot.png"  alt="hompage screenshot"  width="700px"></img>
 
 </picture>
 
@@ -17,8 +17,11 @@ GreenPalate is a user-friendly web application designed to make your vegetarian 
 ## Features
 
 - **Effortless Exploration**: Intuitive search functionality for easy discovery of vegetarian recipes.
+
 - **Diverse Options**: Explore recipes catering to various tastes, dietary preferences, and lifestyles.
+
 - **Customization**: Tailor your search based on categories like popular, budget-friendly, quick, and healthy options.
+
 - **Modern Design**: A visually appealing and user-friendly interface for a delightful browsing experience.
 
 ## Usage
@@ -27,20 +30,25 @@ Simply visit [GreenPalate](https://greenpalate.netlify.app) and start exploring 
 
 ## Built With
 
-- ![html]
+![html]
 
-- ![css]
+![css]
 
-- ![Javascript]
-- ![react]
-- ![reactRouter]
-- ![reactQuery]
-- ![sass]
-- ![vite]
+![Javascript]
+
+![react]
+
+![reactRouter]
+
+![reactQuery]
+
+![sass]
+
+![vite]
 
 ## Developer
 
-Giuseppe Vassallo – [linkedin](https://linkedin.com/in/giuseppe-vassallo-a24885291 –)
+Giuseppe Vassallo - [Linkedin](https://linkedin.com/in/giuseppe-vassallo-a24885291)
 
 try the app! [GreenPalate](https://grennpalate.netlify.app/)
 
