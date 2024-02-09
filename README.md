@@ -1,49 +1,61 @@
-# Greenpalate
+# <img  src="assets/logo-no-background.png"  align='center'  width="400px"  alt="GreenPalate"  >
 
-GreenPalate, your go-to haven for exploring vegetarian recipes, offers a seamless culinary experience. With a user-friendly interface, it empowers users to discover a diverse array of plant-based delights, promoting a healthy, flavorful lifestyle through an extensive selection of mouthwatering recipes
+[![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
-<p align="center">
-    <img src="src/img/screenshot.png" align='center' width="400px" alt="screenshot" >
+Welcome to GreenPalate, your ultimate destination for discovering and exploring a world of delightful vegetarian recipes.
+
+<p  align="center">
+
+<img  src="assets/screenshot.png"  align='center'  width="400px"  alt="screenshot"  >
+
 </p>
 
-## Key Feature
+## Overview
 
-<ol>
-  <li><strong>Intuitive Search:</strong> Input your desired category, such as "Fantasy," "Mystery," "Historical Fiction," and more.</li>
-  <li><strong>Precise Results:</strong> Get a list of the most famous and recognized books in the selected category.</li>
-  <li><strong>Detailed Information:</strong> View comprehensive details about the books, including title, author, and a brief description.</li>
-  <li><strong>Direct Links:</strong> Access purchase pages or additional information about the books directly.</li>
-</ol>
+GreenPalate is a user-friendly web application designed to make your vegetarian culinary journey enjoyable and accessible. With a diverse selection of recipes, customizable search options, and a seamless interface, GreenPalate is your go-to platform for embracing a vibrant, plant-based lifestyle.
 
-## How to use
+## Features
 
-<ol>
-  <li><strong>Access the Application:</strong> Visit the link https://library-giuseppe-vassallo.netlify.app/ to access the application.</li>
-  <li><strong>Enter the Category:</strong> Type in the category of books you're interested in within the provided field.</li>
-  <li><strong>Retrive Results:</strong> Hit the search or submit button to display the list of the most famous books in the entered category.</li>
-  <li><strong>Explore and Select:</strong> Browse through the results and click on each book for further details or additional information..</li>
-</ol>
+- **Effortless Exploration**: Intuitive search functionality for easy discovery of vegetarian recipes.
+- **Diverse Options**: Explore recipes catering to various tastes, dietary preferences, and lifestyles.
+- **Customization**: Tailor your search based on categories like popular, budget-friendly, quick, and healthy options.
+- **Modern Design**: A visually appealing and user-friendly interface for a delightful browsing experience.
+
+## Usage
+
+Simply visit [GreenPalate](https://greenpalate.netlify.app) and start exploring the world of vegetarian recipes. Customize your search, find your favorites, and embark on a delicious journey.
 
 ## Built With
 
-- [![HTML][html.com]][Html-url]
-- [![CSS][css.com]][css-url]
-- [![Javascript][Javascript.com]][Javascript-url]
+- ![html]
+
+- ![css]
+
+- ![Javascript]
+- ![react]
+- ![reactRouter]
+- ![reactQuery]
+- ![sass]
+- ![vite]
 
 ## Developer
 
 Giuseppe Vassallo – www.linkedin.com/in/giuseppe-vassallo-a24885291 –
 
-try the app! [https://library-giuseppe-vassallo.netlify.app/](https://library-giuseppe-vassallo.netlify.app/)
+try the app! [GreenPalate](https://grennpalate.netlify.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1c2e932-36bd-4eaf-b04c-e8dd0d76a44e/deploy-status)](https://app.netlify.com/sites/library-giuseppe-vassallo/deploys)
+Enjoy your culinary adventures with GreenPalate! 🌱🍽️
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[Javascript.com]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[Javascript-url]: https://javascript.com/
-[html.com]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[html-url]: https://www.w3.org
-[css.com]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[css-url]: https://www.w3.org
+[Javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[html]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[css]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[react]: https://img.shields.io/badge/React-%2361DAFB?style=for-the-badge&logo=React&logoColor=black
+[reactRouter]: https://img.shields.io/badge/React%20Router-%23CA4245?style=for-the-badge&logo=React%20Router&logoColor=black
+[reactQuery]: https://img.shields.io/badge/React%20query-%23FF4154?style=for-the-badge&logo=React%20Query&logoColor=black
+[sass]: https://img.shields.io/badge/sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=white
+[vite]: https://img.shields.io/badge/vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white
+[Netlify Status]: https://api.netlify.com/api/v1/badges/ac9bb33f-92c6-4a45-bca8-15b6d1437071/deploy-status
