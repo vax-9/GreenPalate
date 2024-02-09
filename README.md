@@ -1,4 +1,4 @@
-# <a href="https://grennpalate.netlify.app/"><img  src="src/assets/logo-no-background.png" alt="GreenPalate"></img></a>
+# <a href="https://grennpalate.netlify.app/"><img  src="src/assets/logo-no-background.png" alt="GreenPalate" width="600px"></img></a>
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
@@ -6,7 +6,7 @@ Welcome to GreenPalate, your ultimate destination for discovering and exploring 
 
 <picture  align="center">
 
-<img  src="src/assets/screenshot.png.png" alt="hompage screenshot"></img>
+<img  src="src/assets/screenshot.png" alt="hompage screenshot"></img>
 
 </picture>
 
