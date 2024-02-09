@@ -9,7 +9,7 @@ function NotFound() {
 
   const location = useLocation();
 
-  const errorCode = location.state.error;
+  const errorCode = location?.state?.error;
   console.log(params);
 
   return (
