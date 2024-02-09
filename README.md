@@ -1,16 +1,14 @@
-# [GreenPalate Logo](src/assets/logo-no-background.png)
-
-<img href="https://grennpalate.netlify.app/" src="src/assets/logo-no-background.png" alt="GreenPalate"></img>
+# <a href="https://grennpalate.netlify.app/"><img  src="src/assets/logo-no-background.png" alt="GreenPalate"></img></a>
 
 [![Netlify Status]](https://app.netlify.com/sites/greenpalate/deploys)
 
 Welcome to GreenPalate, your ultimate destination for discovering and exploring a world of delightful vegetarian recipes.
 
-<p  align="center">
+<picture  align="center">
 
-[Screenshot](src/assets/screenshot.png)
+<img  src="src/assets/screenshot.png.png" alt="hompage screenshot"></img>
 
-</p>
+</picture>
 
 ## Overview
 
