@@ -4,9 +4,9 @@
 
 Welcome to GreenPalate, your ultimate destination for discovering and exploring a world of delightful vegetarian recipes.
 
-<picture  align="center">
+<picture  align="center" border="2px solid black">
 
-<img  src="src/assets/screenshot.png" alt="hompage screenshot"></img>
+<img  src="src/assets/screenshot.png" alt="hompage screenshot" ></img>
 
 </picture>
 
