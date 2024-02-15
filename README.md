@@ -50,7 +50,7 @@ Simply visit [GreenPalate](https://greenpalate.netlify.app) and start exploring 
 
 Giuseppe Vassallo - [Linkedin](https://linkedin.com/in/giuseppe-vassallo-a24885291)
 
-try the app! [GreenPalate](https://grennpalate.netlify.app/)
+try the app! [GreenPalate](https://greenpalate.netlify.app/)
 
 Enjoy your culinary adventures with GreenPalate! 🌱🍽️
 
