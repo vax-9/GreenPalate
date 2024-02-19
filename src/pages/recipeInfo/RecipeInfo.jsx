@@ -1,5 +1,5 @@
 import { Navigate, useParams } from "react-router-dom";
-import NavLinks from "../nav/NavLinks";
+import NavLinks from "../../components/nav/NavLinks";
 import style from "./RecipeInfo.module.scss";
 import {
   time,
