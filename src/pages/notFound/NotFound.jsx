@@ -1,5 +1,5 @@
 import style from "./NotFound.module.scss";
-import NavLinks from "../nav/NavLinks";
+import NavLinks from "../../components/nav/NavLinks";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 
 function NotFound() {

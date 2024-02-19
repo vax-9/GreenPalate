@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import NavLinks from "../nav/NavLinks";
-import Pagination from "../pagination/Pagination";
+import NavLinks from "../../components/nav/NavLinks";
+import Pagination from "../../components/pagination/Pagination";
 import style from "./SearchResult.module.scss";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { loader, vegan } from "../../assets/images";
