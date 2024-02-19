@@ -13,6 +13,7 @@ function App() {
     <>
       <Helmet>
         <title>GreenPalate</title>
+        <meta name="title" content="GreenPalate" />
         <meta name="description" content="the best vegetarian recipes!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://greenpalate.netlify.app/" />
